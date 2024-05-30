@@ -1,0 +1,56 @@
+.carousel > .carousel-inner > .carousel-item > img{
+    width:250px;
+    height:400px;
+}
+
+.imgText {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.link-title{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link :hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.dash-line {
+    width: 60%;
+    margin:5px 0;
+    height:1px;
+    background:repeating-linear-gradient(90deg,rgb(168, 166, 166) 0 10px,#0000 0 12px)
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.column {
+    margin-left: 15px;
+}
